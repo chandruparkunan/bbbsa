@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="newjavascript.js" type="text/javascript"></script>
+        <link href="newcss.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <style>
+            label {
+                margin: 0px 2px 4px 2px;
+                padding: 1px;
+                background-color: #ffffff;
+                display: block;
+                width: 50px;
+            }
+        </style>
+        
+        $("#exportSection :checkbox:not(:checked)").each(function(){
+                $(this).parent().remove();
+            });
+    </head>
+    <body>
+        <form action="" method="get" id="page-content">
+            <div class="row">
+                <div class="col-sm-11">
+                    <select style="width:500px;" onchange="color3(this.value)">
+                        <option>-- Select an option --</option>
+                        <option name="choice1" value="single">Where Borrower is a Connective Broker</option>
+                        <option name="choice2" value="loan">Where Borrower is a Non-Connective Broker</option>
+                    </select>
+                    <div id="single" style="display:none;">
+                       <h2> <b >Connective Broker Funding</b></h2>
+                    </div>
+                    <div id="loan" style="display:none;">
+                        <h2><b >Heads of Agreement</b></h2>
+                    </div>
+
+                    <br>{{scope}}{txtPaymentDetails}
+                    <div class="toExport"><b>Monthly Repayment Amount</b> means   &nbsp; &dollar; <input type="text" id="txtPaymentDetails" style="width: 10%;"><span class="hide">10000 <!-- bind dynamic value of input id="txtPaymentDetails" --></span></div>
+                    <br>
+                </div>
+            </div>
+            <label title="Alabama" id="Alabama"><input type="checkbox" value="checkbox" onchange="statecheck('Alabama')" />AL</label>
+            <label title="Alaska" id="Alaska"><input type="checkbox" value="checkbox" onchange="statecheck('Alaska')" />AK</label>
+            <label title="American Samoa" id="AmericanSamoa"><input type="checkbox" value="checkbox" onchange="statecheck('AmericanSamoa')" />AS</label>
+            <span style="float: right; margin-right: 30px;">
+                <a class="word-export" href="javascript:void(0)"> Export as .doc </a>
+            </span>
+        </form>
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/js/FileSaver.js"></script>
+        <script src="assets/js/jquery.wordexport.js"></script>
+        <script>
+        function color3(color3_type) {
+            if (color3_type == 'loan') {
+                document.getElementById('loan').style.display = 'block';
+                document.getElementById('single').style.display = 'none';
+            }
+            else {
+                document.getElementById('loan').style.display = 'none';
+                document.getElementById('single').style.display = 'block';
+            }
+            $("[style='display: block;']").addClass("toExport");
+            $("[style='display: none;']").removeClass("toExport");
+        }
+    </script>
+        <script>
+            function statecheck(layer) {
+                var myLayer = document.getElementById(layer);
+                if (myLayer.control.checked == true) {
+                    myLayer.style.backgroundColor = "#5fba7d";
+                    // set toExport class for checked section
+                    myLayer.className = "toExport";
+                } else {
+                    myLayer.style.backgroundColor = "#eee";
+                    // remove toExport class for un-checked section
+                    myLayer.className = "";
+                };
+            }
+        </script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $("a.word-export").click(function(event) {
+                    /* get all checked scetion by toExport class and sets in var toExport*/
+                    var toExport = document.getElementsByClassName("toExport"),
+                        string = [].map.call(toExport, function(node) {
+                            return node.textContent || node.innerText || "";
+                        }).join("");
+                    
+                    /* create a new div element and set id #exportSection */
+                    var DIV = document.createElement("div");
+                    DIV.id = "exportSection";
+                    /* pushing the checked scetion to newly created DIV element*/
+                    for (i = 0; i < toExport.length; i++) {
+                        console.log("toExport[i]length " , toExport[i]);
+                        DIV.innerHTML += toExport[i].outerHTML;
+                    }
+                    /* Addind the created div element with id #exportSection to document-body*/
+                    document.body.appendChild(DIV);
+                    $("#exportSection :text").remove();
+                    $("#exportSection :checkbox").remove();
+                    $("#exportSection").wordExport();
+                    /* removing the added div element with id #exportSection from document-body after .wordExport()*/
+                    var removeEle = document.getElementById("exportSection");
+                    removeEle.parentNode.removeChild(removeEle);
+                });
+            });
+        </script>
+    </body>
+</html>
