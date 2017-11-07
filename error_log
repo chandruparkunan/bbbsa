@@ -1,0 +1,16 @@
+[01-Nov-2017 14:19:13 UTC] PHP Notice:  Undefined variable: text in /home/arunannamalai/public_html/bbbsa/edit.php on line 15
+[01-Nov-2017 14:19:28 UTC] PHP Notice:  Undefined variable: text in /home/arunannamalai/public_html/bbbsa/edit.php on line 15
+[01-Nov-2017 14:19:29 UTC] PHP Notice:  Undefined variable: text in /home/arunannamalai/public_html/bbbsa/edit.php on line 15
+[01-Nov-2017 14:21:26 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/arunannamalai/public_html/bbbsa/edit.php on line 8
+[01-Nov-2017 14:23:18 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /home/arunannamalai/public_html/bbbsa/edit.php on line 8
+[01-Nov-2017 14:41:17 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/arunannamalai/public_html/bbbsa/edit.php on line 8
+[01-Nov-2017 14:41:17 UTC] PHP Notice:  Undefined variable: text1 in /home/arunannamalai/public_html/bbbsa/edit.php on line 9
+[01-Nov-2017 14:41:17 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/arunannamalai/public_html/bbbsa/edit.php on line 9
+[01-Nov-2017 14:42:10 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/arunannamalai/public_html/bbbsa/edit.php on line 8
+[01-Nov-2017 14:42:10 UTC] PHP Notice:  Undefined variable: text1 in /home/arunannamalai/public_html/bbbsa/edit.php on line 9
+[01-Nov-2017 14:42:10 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/arunannamalai/public_html/bbbsa/edit.php on line 9
+[01-Nov-2017 14:43:06 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/arunannamalai/public_html/bbbsa/edit.php on line 8
+[01-Nov-2017 14:44:35 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/arunannamalai/public_html/bbbsa/edit.php on line 8
+[01-Nov-2017 14:45:33 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /home/arunannamalai/public_html/bbbsa/edit.php on line 8
+[01-Nov-2017 14:58:51 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /home/arunannamalai/public_html/bbbsa/edit.php on line 8
+[01-Nov-2017 15:07:14 UTC] PHP Notice:  Undefined variable: text in /home/arunannamalai/public_html/bbbsa/edit.php on line 15
