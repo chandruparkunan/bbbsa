@@ -125,7 +125,7 @@
                                         <!--id-->
                                     </div>
                                     <div class="col-sm-11" style="font-family: Arial;">
-                                        <br /> <strong>(Borrower)</strong>
+                                        <br /> <strong>(Borrower)</strong> <br /><br />
                                     </div>
                                 </div>
                             </td>
@@ -210,15 +210,16 @@
                                             <input hidden="" type="checkbox" /><strong> Where Borrower is repaying depts:</strong>
                                         </div>
                                         <div style="font-family: Arial;">
-                                            <input type="checkbox" /> The purpose for which the Borrower seeks funding from the Lender is for working capital purposes. The Lender and Borrower have identified the mortgage trail book as attached to the Schedule <strong>(Target Recurring Revenues Book)</strong> which the Borrower has the benefit of as the source of the cash flows for the Borrower for the servicing of any funding to be provided by the Lender and which the Borrower is to provide security over in favour of the Lender together with all the other assets of the Borrower.
-                                            <br />
-                                            <br />
+                                            <input type="checkbox" /> The purpose for which the Borrower seeks funding from the Lender is for working capital purposes and debt consolidation. The Lender and Borrower have identified the mortgage trail book as attached to the Schedule <strong>(Target Recurring Revenues Book)</strong> which the Borrower has the benefit of as the source of the cash flows for the Borrower for the servicing of any funding to be provided by the Lender and which the Borrower is to provide security over in favour of the Lender together with all the other assets of the Borrower.
+                                            <br /><br />
                                         </div>
                                         <div style="font-family: Arial;">
                                             <input hidden="" type="checkbox" /> <strong> Where the Borrower is acquiring a book:</strong>
                                         </div>
                                         <div style="font-family: Arial;">
-                                            <input type="checkbox" /> The purpose for which the Borrower seeks funding from the Lender is to make an acquisition as identified in the attached Schedule <strong>(Target Recurring Revenues Book)</strong> with the use of the Lender's funding. The Target <strong>Recurring Revenues</strong> Book will be the source of the cash flows for the Borrower for the servicing of any funding to be provided by the Lender and which the Borrower is to provide security over in favour of the Lender together with all the other assets of the Borrower.</div>
+                                            <input type="checkbox" /> The purpose for which the Borrower seeks funding from the Lender is to make an acquisition as identified in the attached Schedule <strong>(Target Recurring Revenues Book)</strong> with the use of the Lender's funding. The Target <strong>Recurring Revenues</strong> Book will be the source of the cash flows for the Borrower for the servicing of any funding to be provided by the Lender and which the Borrower is to provide security over in favour of the Lender together with all the other assets of the Borrower.
+                                            <br /><br />
+                                        </div>
                                     </div>
                                 </div>
                             </td>
@@ -230,6 +231,7 @@
                                 <div class="row" style="font-family: Arial; text-align: justify;">
                                     <div class="col-sm-11" style="font-family: Arial;">
                                         <p>The Lender intends to advance to the Borrower <span id="AnnualMultiple"></span> times the annualised monthly recurring income receipts (based on the most recent month of net income received by the Borrower of $<span id="RecentTrailIncome"></span>) on the terms of this Agreement.</p>
+                                        <br /><br />
                                     </div>
                                 </div>
                             </td>
@@ -296,7 +298,7 @@
                                                         <div class="row" style="font-family: Arial; text-align: justify;">
                                                             <div class=" col-sm-11 rstbch1" style="font-family: Arial;">
                                                                 <div style="font-family: Arial;">
-                                                                    <input type="checkbox" />The proceeds of an Advance must only be used in whole or in the majority entirely by the Borrower in its business ventures as additional working capital for the Borrower's existing businesses.
+                                                                    <input type="checkbox" />The proceeds of an Advance must only be used in whole or in the majority by the Borrower in its business ventures as additional working capital for the Borrower's existing businesses.
                                                                     <br />
                                                                     <br />
                                                                 </div>
@@ -340,8 +342,6 @@
                                                         <div class="row" style="font-family: Arial; text-align: justify;">
                                                             <div class=" col-sm-11" style="font-family: Arial;">The lesser of:
                                                                 <br />
-                                                                <div style="font-family: Arial;"><strong>(Loan Principal)</strong>
-                                                                </div>
                                                                 <table class="NestedTbl" style="font-family: Arial;">
                                                                     <tbody>
                                                                         <tr>
@@ -363,6 +363,9 @@
                                                                         </tr>
                                                                     </tbody>
                                                                 </table>
+                                                                <div style="font-family: Arial;">
+                                                                    <strong>(Loan Principal)</strong>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -539,7 +542,7 @@
                                                     <div style="font-family: Arial;">Timing of repayments</div>
                                                 </td>
                                                 <td style="border: 1px solid black; padding: 5px;" width="70%">
-                                                    <div class="col-sm-12 rstbch4" style="font-family: Arial; text-align: justify;">
+                                                    <div class="col-sm-12 rstbch4" style="font-family: Arial;">
                                                         <div style="font-family: Arial;">
                                                             <input hidden="" type="checkbox" /><strong>Paid from one source:</strong>
                                                             <br />
@@ -557,7 +560,7 @@
                                                                     <td style="width: 1cm;" valign="top">
                                                                         <input id="chkbox51" type="checkbox" />(a)</td>
                                                                     <td valign="top">
-                                                                        <p style="text-align: justify; font-family: Arial;">Where there are scheduled monthly repayments, then each payment is to be made within 72 hours of receipt by the Borrower of its monthly commission</p>
+                                                                        <p style="font-family: Arial;">Where there are scheduled monthly repayments, then each payment is to be made within 72 hours of receipt by the Borrower of its monthly commission</p>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -570,7 +573,7 @@
                                                                     <td style="width: 1cm;" valign="top">
                                                                         <input id="chkbox6" type="checkbox" /> (b)</td>
                                                                     <td valign="top">
-                                                                        <p style="text-align: justify; font-family: Arial;">Where there are scheduled monthly repayments, then each payment is to be made <span id="rkys"><select id="dt" onchange="rky1(event);">
+                                                                        <p style="font-family: Arial;"><span> there are scheduled monthly repayments, then each payment is to be made </span><span id="rkys"><select id="dt" onchange="rky1(event);">
                                                                                             <option>-- Select--</option>
                                                                                             <option value="1">1</option>
                                                                                             <option value="2">2</option>
@@ -618,7 +621,7 @@
                                                                     <td style="width: 1cm;" valign="top">
                                                                         <input id="chkbox7" type="checkbox" />(c)</td>
                                                                     <td valign="top">
-                                                                        <p style="text-align: justify; font-family: Arial;">Where there are scheduled monthly repayments, then each payment is to be made at the same time that the Borrower receives its monthly commission.</p>
+                                                                        <p style="font-family: Arial;">Where there are scheduled monthly repayments, then each payment is to be made at the same time that the Borrower receives its monthly commission.</p>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
@@ -635,7 +638,7 @@
                                                                     <td style="width: 1cm;" valign="top">
                                                                         <input type="checkbox" />(i)</td>
                                                                     <td valign="top">
-                                                                        <p style="text-align: justify; font-family: Arial;">Where there are scheduled monthly repayments, then each payment is to be made within 72 hours of receipt by the Borrower of its monthly commission</p>
+                                                                        <p style="font-family: Arial;">Where there are scheduled monthly repayments, then each payment is to be made within 72 hours of receipt by the Borrower of its monthly commission</p>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -677,7 +680,7 @@
                                                                                             <option value="31">31</option>
                                                                                         </select></span>
                                                                             <!--id--><span id="rksy2" hidden=""></span>
-                                                                            <!--id-->&nbsp; days after the end Of each month end; and</p>
+                                                                            <!--id-->&nbsp; days after the end of each month end; and</p>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -686,7 +689,7 @@
                                                                     <td valign="top">
                                                                         <p style="text-align: justify; font-family: Arial;">A final installment on the monthly repayment to be made on the last day of the month.
                                                                             <br />
-                                                                            <br />The amount of the final installment is to be advised by the Lender to the Borrower 2 Business Days prior to the last day of the month following the Lender's reconciliation of payments.</p>
+                                                                            <br />The amount of the final installment is to be advised by the Lender to the Borrower 2 Business days prior to the last day of the month following the Lender's reconciliation of payments.</p>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -771,7 +774,7 @@
                                                 </td>
                                                 <td style="border: 1px solid black; padding: 5px;" width="70%">
                                                     <div class="col-sm-12" style="font-family: Arial; text-align: justify;">
-                                                        <p>The following assets are to be included as part of the Secured Property as described in the applicable General Security Deed:Introducer Agreement.</p>
+                                                        <p>The following assets are to be included as part of the Secured Property as described in the applicable General Security Deed: Introducer Agreement.</p>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -807,7 +810,8 @@
                                                                     <td valign="top">
                                                                         <p style="text-align: justify; font-family: Arial;">
                                                                             <input id="accountaggregator" type="checkbox" />The following bank account shall be used for receipt of any trailing commissions owing to the Lender in relation to the Target Recurring Revenue Book and repayments of Loan Principal or interest to the Lender under this Agreement.</p>
-                                                                        <br>"Proceeds Account" details are as follows: Account Name: Book Buyers &amp; Brokerage Services
+                                                                        <br>"Proceeds Account" details are as follows: 
+                                                                        <br />Account Name: Book Buyers &amp; Brokerage Services
                                                                         <br />Account Number: 546974
                                                                         <br />Bank: Westpac Bank
                                                                         <br />BSB: 032 051
@@ -1013,7 +1017,7 @@
                                                                     <input name="Borrower agrees" type="checkbox" /><strong>Annual Facility Fee:</strong> The Borrower agrees to pay to the Lender an Annual facility of <span id="annual"><input type="checkbox" />$<!--id--><span id="AnnualFacilityFees"></span>
                                                                     <!--id-->
                                                                     </span><span id="anuals"><input type="checkbox" /><!--id--><span id="AnnualFacilityPercentage"></span>
-                                                                    <!--id-->% </span> per annum. The Borrower agrees to pay the Annual Facility Fee to the Lender in monthly installments once all Principal and Interest have been repaid on the loan.
+                                                                    <!--id-->% </span> per annum. The Borrower agrees to pay the Annual Facility Fee to the Lender in monthly instalments once all Principal and Interest have been repaid on the loan.
                                                                     <br />
                                                                     <br />
                                                                 </div>
@@ -1123,6 +1127,7 @@
                                                                             <p>Receipt of the Borrower's most recent Recipient Created Tax Invoice (RCTI) entered into between it and the the Aggregator
                                                                                 <!-- <span id="borrowerType1"></span> -->. And an electronic excel copy of the commission payments for each month since the valuation date.
                                                                                 <br />
+                                                                                The Lender takes a first ranking PPSR charge over the Borrower and any bank account that receives trail income.
                                                                                 <br />
                                                                             </p>
                                                                         </div>
@@ -1285,10 +1290,9 @@
                                                     <div class="col-sm-12" style="font-family: Arial;">
                                                         <div style="text-align: justify; font-family: Arial;">
                                                             <p style="text-align: justify; font-family: Arial;">If a Potential Event of Default has occurred, an Event of Default is subsisting or there has been a change in control of the Borrower or the Guarantor, the Lender has the option to convert the Principal Outstanding into equity:</p>
-                                                            <p style="text-align: justify; font-family: Arial;">a)&nbsp;&nbsp;&nbsp;&nbsp;by payment of Option Price A to the Borrower, a right to acquire an amount equal to &nbsp;
-                                                                <input id="text8" onkeyup="change8()" type="text" />
+                                                            <p style="text-align: justify; font-family: Arial;">a)&nbsp;&nbsp;&nbsp;&nbsp;by payment of Option Price A to the Borrower, a right to acquire an amount equal to <input id="text8" onkeyup="change8()" type="text" />
                                                                 <!--id--><span id="div8" hidden=""></span>
-                                                                <!--id-->% or the revised percentage in accordance with further amounts drawn of the Target Revenues Book;and&nbsp;</p>b)&nbsp;&nbsp;&nbsp;&nbsp;by payment of Option Price B, a right to acquire all of the remaining trail income of the Target Recurring Revenues Book whether paid or deferred.
+                                                                <!--id-->% or the revised percentage in accordance with further amounts drawn of the Target Revenues Book; and&nbsp;</p>b)&nbsp;&nbsp;&nbsp;&nbsp;by payment of Option Price B, a right to acquire all of the remaining trail income of the Target Recurring Revenues Book whether paid or deferred.
                                                             <br />
                                                             <br />
                                                         </div>
@@ -1299,7 +1303,7 @@
                                                         <br /> <strong>Differential Amount</strong> means [(Actual Recurring Revenue Receivable Income) - (Monthly Repayment Amount)]
                                                         <br />
                                                         <br /> <strong>Monthly Repayment Amount</strong> means &nbsp; $
-                                                        <!--id--><span id="MonthlyRepayment2"></span>
+                                                        <!--id--><span id="MonthlyRepayment2"></span> or the updated repayment due under the terms of the additional drawings.
                                                         <!--id-->
                                                         <br />
                                                         <br /> <strong>Multiplier</strong> means &nbsp; $
@@ -1341,19 +1345,18 @@
                             </td>
                             <td><strong>Confidentiality</strong>
                                 <p style="text-align: justify; font-family: Arial;">All information exchanged between the parties under or in connection with this Agreement (including the terms of this Agreement or during the negotiations preceding this Agreement) is confidential to them and may not be disclosed to any person (other than its professional advisers) except with the consent of the other party or as required by law.</p>
-                                <br>
                             </td>
                         </tr>
-
+                        <tr><td>&nbsp;</td><td></td></tr>
                         <tr align="left">
                             <td style="width: 1cm;" valign="top"><strong>3.</strong>
                             </td>
                             <td><strong>Further assurances</strong>
                                 <br />
                                 <p style="text-align: justify;">A party, at its own expense and within a reasonable time of being requested by another party to do so, must do all things and execute all documents that are reasonably necessary to give full effect to this Agreement, and in particular, the Borrower shall execute such agreements necessary to provide the security in relation to the Principle Loan as may be required by the Lender.</p>
-                                <br>
                             </td>
                         </tr>
+                        <tr><td>&nbsp;</td><td></td></tr>
                         <tr align="left">
                             <td style="width: 1cm;" valign="top"><strong>4.</strong>
                             </td>
@@ -1361,9 +1364,9 @@
                             <td><strong>Assignment</strong>
                                 <br />
                                 <p style="text-align: justify;">The Borrower cannot assign or otherwise transfer the benefit of this Agreement without the prior written consent of the Lender.</p>
-                                <br>
                             </td>
                         </tr>
+                        <tr><td>&nbsp;</td><td></td></tr>
                         <tr align="left">
                             <td style="width: 1cm;" valign="top"><strong>5.</strong>
                             </td>
@@ -1376,28 +1379,28 @@
                                         <input type="checkbox" /> The Borrower will pay an estimated $
                                         <!--id--><span id="LegalFees"></span>
                                         <!--id-->(plus GST) towards the legal costs incidental to the preparation and completion of this Agreement. If the Borrower elects not to proceed, through no fault of the Lender, then post signing this Agreement the Borrower will become responsible to pay 100% of these Costs plus the Set-up Fee within 30 days of signature. The Borrower will pay the costs of an independent valuation of the Target trail book.</p>
-                                    <br>
                                 </div>
                             </td>
                         </tr>
+                        <tr><td>&nbsp;</td><td></td></tr>
                         <tr align="left">
                             <td style="width: 1cm;" valign="top"><strong>6.</strong>
                             </td>
                             <td><strong>Governing law and jurisdiction</strong>
                                 <br />
                                 <p style="text-align: justify;">This Agreement is governed by and must be construed in accordance with the laws in force in New South Wales, to whose courts the parties submit exclusive jurisdiction.</p>
-                                <br>
                             </td>
                         </tr>
+                        <tr><td>&nbsp;</td><td></td></tr>
                         <tr align="left">
                             <td style="width: 1cm;" valign="top"><strong>7.</strong>
                             </td>
                             <td><strong>Relationship of parties</strong>
                                 <br />
                                 <p style="text-align: justify;">Nothing in this Agreement may be construed as creating a relationship or partnership of principle and agent or of trustee and beneficiary.</p>
-                                <br>
                             </td>
                         </tr>
+                        <tr><td>&nbsp;</td><td></td></tr>
                         <tr align="left">
                             <td style="width: 1cm;" valign="top"><strong>8.</strong>
                             </td>
@@ -1407,9 +1410,9 @@
                                     <input id="dt" onchange="handler2(event);" type="date" />
                                     <!--id--><span id="alert2" hidden=""></span>
                                     <!--id-->. It thereafter falls away unless both parties expressly agree to extend this date and the provision of the Agreement may not be construed as creating a contractual relationship until duly executed by both parties.</p>
-                                <br>
                             </td>
                         </tr>
+                        <tr><td>&nbsp;</td><td></td></tr>
                         <tr align="left">
                             <td style="width: 1cm;" valign="top"><strong>9.</strong>
                             </td>
@@ -1417,9 +1420,9 @@
                                 <br />
                                 <p style="text-align: justify;">Except for the provisions set out in clause 2 (Confidentiality) and clause 5 (Costs), there is no legally binding relationship between the parties until such time as the legal documents contemplated by this Agreement are agreed and executed by each of the parties(Formal Documents).</p>
                                 <p style="text-align: justify;">The parties agree that once entered into, the terms of the Formal Documents will constitute the entire agreement between the parties about the Principle Loan and will supersede all previous agreements, understandings and negotiations on that subject matter, including under this Agreement, all of which will have no further force or effect.</p>
-                                <br>
                             </td>
                         </tr>
+                        <tr><td>&nbsp;</td><td></td></tr>
                         <tr align="left">
                             <td style="width: 1cm;" valign="top"><strong>10.</strong>
                             </td>
@@ -1427,9 +1430,9 @@
                                 <br />
                                 <p style="text-align: justify;">The following is a worked example of the cash flows described above, based on the assumptions set out and is prepared for illustrative purposes only:
                                     <br />(See illustrative Cashflow table which follows)</p>
-                                <br>
                             </td>
                         </tr>
+                        <tr><td>&nbsp;</td><td></td></tr>
                     </tbody>
                 </table>
             </div>
