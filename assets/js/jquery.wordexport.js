@@ -66,7 +66,7 @@ if (typeof jQuery !== "undefined" && typeof saveAs !== "undefined") {
             mhtmlBottom += "--NEXT.ITEM-BOUNDARY--";
 
             //TODO: load css from included stylesheet
-            var styles = "";
+            var styles = "body{font-size: 0.9em;}";
 
             // START - checked checkboxes contents are remove
             var chkedChkBoxIds = '';
