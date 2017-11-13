@@ -317,7 +317,7 @@
                                                                                 <p>an amount equal to the multiple of
                                                                                     <!--id--><span id="MonthlyMultiple"></span>
                                                                                     <!--id-->times the trail income received from the Target Receivables Book in
-                                                                                    <input id="text1" onkeyup="change1()" type="text" /><span id="div1" hidden=""></span>
+                                                                                    <input id="dt" onchange="handler3(event);" type="month" /><!--id--><span id="alert3" hidden=""></span><!--id-->
                                                                                 </p>
                                                                             </td>
                                                                         </tr>

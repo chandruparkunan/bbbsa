@@ -583,6 +583,9 @@ function handler1(e){
 function handler2(e){
   document.getElementById('alert2').innerHTML=(e.target.value);
 }
+function handler3(e){
+  document.getElementById('alert3').innerHTML=(e.target.value);
+}
 function rky1(e){
   document.getElementById('rksy1').innerHTML=(e.target.value);
 }
