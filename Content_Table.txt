@@ -1070,45 +1070,51 @@
                                                         <table class="NestedTbl" style="font-family: Arial;">
                                                             <tbody>
                                                                 <tr>
-                                                                    <td style="width: 1cm;" valign="top">
-                                                                        <input type="checkbox" value="Due Diligence1" /> 1</td>
+                                                                    <td style="width: 1cm; font-size: 0.9em;" valign="top">
+                                                                        <input type="checkbox" value="Due Diligence1" />&bull;</td>
                                                                     <td valign="top">Due Diligence: Satisfactory review of the Introducer Agreement
                                                                         <br />
                                                                         <br />
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td style="width: 1cm;" valign="top">
-                                                                        <input type="checkbox" value="Due Diligence2" /> 2</td>
+                                                                    <td style="width: 1cm; font-size: 0.9em;" valign="top">
+                                                                        <input type="checkbox" value="Due Diligence2" />&bull;</td>
                                                                     <td valign="top">
                                                                         <div style="font-family: Arial; text-align: justify;">
                                                                             <p>Receipt of the Borrower's most recent Recipient Created Tax Invoice (RCTI) entered into between it and the the Aggregator
                                                                                 <!-- <span id="borrowerType1"></span> -->. And an electronic excel copy of the commission payments for each month since the valuation date.
-                                                                                <br />
-                                                                                The Lender takes a first ranking PPSR charge over the Borrower and any bank account that receives trail income.
                                                                                 <br />
                                                                             </p>
                                                                         </div>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td style="width: 1cm;" valign="top">
-                                                                        <input type="checkbox" value="Due Diligence3" /> 3</td>
+                                                                    <td style="width: 1cm; font-size: 0.9em;" valign="top">
+                                                                        <input type="checkbox"/>&bull;</td>
+                                                                    <td valign="top">
+                                                                        The Lender takes a first ranking PPSR charge over the Borrower and any bank account that receives trail income.
+                                                                        <br />
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="width: 1cm; font-size: 0.9em;" valign="top">
+                                                                        <input type="checkbox" value="Due Diligence3" />&bull;</td>
                                                                     <td valign="top">
                                                                         <p>Evidence to the satisfaction of the Lender that:</p>
                                                                         <table class="NestedTbl" style="font-family: Arial;">
                                                                             <tbody>
                                                                                 <tr>
-                                                                                    <td style="width: 1cm;" valign="top">
-                                                                                        <input hidden="" name="satisfaction" type="checkbox" />(i)</td>
+                                                                                    <td style="width: 1cm; font-size: 0.9em;" valign="top">
+                                                                                        <input hidden="" name="satisfaction" type="checkbox" />&bull;</td>
                                                                                     <td valign="top">
                                                                                         <p>Where aggregator will not split payment and client needs to open a new account that BBBSA are a signatory:</p>
                                                                                     </td>
                                                                                 </tr>
                                                                                 <tr>
-                                                                                    <td style="width: 1cm;" valign="top">&nbsp;</td>
+                                                                                    <td style="width: 1cm; font-size: 0.9em;" valign="top">&nbsp;</td>
                                                                                     <td valign="top">
-                                                                                        <input type="checkbox" />i) The Aggregator has accepted the details of the Proceeds Account and confirmed payment of commissions will be deposited into the Proceeds Account;
+                                                                                        <input type="checkbox" /><span style="font-size: 0.9em;">&bull;</span> The Aggregator has accepted the details of the Proceeds Account and confirmed payment of commissions will be deposited into the Proceeds Account;
                                                                                     </td>
                                                                                 </tr>
                                                                                 <tr>
@@ -1122,12 +1128,12 @@
                                                                                 <tr>
                                                                                     <td style="width: 1cm;" valign="top">&nbsp;</td>
                                                                                     <td valign="top">
-                                                                                        <input type="checkbox" />ii) The Lender has become an authorised signatory of the Proceeds Account and has electronic access to operate this account;
+                                                                                        <input type="checkbox" /><span style="font-size: 0.9em;">&bull;</span> The Lender has become an authorised signatory of the Proceeds Account and has electronic access to operate this account;
                                                                                     </td>
                                                                                 </tr>
                                                                                 <tr>
-                                                                                    <td style="width: 1cm;" valign="top">
-                                                                                        <input hidden="" name="satisfaction" type="checkbox" />(ii)</td>
+                                                                                    <td style="width: 1cm; font-size: 0.9em;" valign="top">
+                                                                                        <input hidden="" name="satisfaction" type="checkbox" />&bull;</td>
                                                                                     <td valign="top">
                                                                                         <p>where commissions are split between the Borrower and the Lender's account by the aggregator</p>
                                                                                     </td>
@@ -1135,7 +1141,7 @@
                                                                                 <tr>
                                                                                     <td style="width: 1cm;" valign="top">&nbsp;</td>
                                                                                     <td valign="top">
-                                                                                        <input type="checkbox" />iii) The Aggregator have entered the "Split Code" for payments split between the Borrower and the Lender out of the commissions in the proportion agreed between the Borrower and Lender.
+                                                                                        <input type="checkbox" /><span style="font-size: 0.9em;">&bull;</span> The Aggregator have entered the "Split Code" for payments split between the Borrower and the Lender out of the commissions in the proportion agreed between the Borrower and Lender.
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
